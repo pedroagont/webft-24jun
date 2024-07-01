@@ -4,7 +4,7 @@
 // FUNCTION DECLARING
 const sayHello = () => 'Hello!';
 
-// console.log(sayHello());
+console.log(sayHello());
 
 // MANUAL TESTING
 // const assertEquals = (actual, expected) => {
@@ -16,7 +16,11 @@ const sayHello = () => 'Hello!';
 // };
 
 // assertEquals(sayHello(), 'Hello!');
+
+// CONSOLE ASSERT TESTING
 // console.assert(sayHello() === 'hello!', 'sayHello() failed!');
+
+// NODE ASSERT TESTING
 // assert.equal(sayHello(), 'Hello!', 'sayHello() failed!');
 
 const sayHelloWithUsername = (username) => 'Hello ' + username;
